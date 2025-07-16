@@ -43,8 +43,8 @@ vorlagen_kantone_special_gegenvorschlag <- c("Gu1as","FsoiR","qiUTe")
 vorlagen_kantone_special_stichentscheid <- c("Cc5YB","cDy1R","ygRKA")
 
 #Titel aktuelle Vorlagen
-#vorlagen_all <- rbind(vorlagen,vorlagen_fr)
-#vorlagen_all <- rbind(vorlagen_all,vorlagen_it)
+vorlagen_all <- rbind(vorlagen,vorlagen_fr)
+vorlagen_all <- rbind(vorlagen_all,vorlagen_it)
 
 #Load Folders
 folder_kantonal <- readRDS("./Preparations/folders/folder_kantonal.RDS")
